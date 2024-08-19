@@ -1,0 +1,28 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "This is a simple user management system practice where I use Express.Js, Node.Js, MySQL and others to create a User management system performing CRUD",
+  "main": "index.js",
+  "scripts": { 
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Bootstrap"
+  ],
+  "author": "Bennet",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
